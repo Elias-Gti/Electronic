@@ -1,0 +1,82 @@
+body {
+  margin-top: 90px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px darkslategray; }
+  .navbar .nav-item {
+    font-size: 1.13rem;
+    padding: 5px; }
+    .navbar .nav-item .nav-link {
+      color: black; }
+    .navbar .nav-item .nav-link:hover {
+      color: #0E95C7; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#showcase {
+  background-image: url("../img/my_pic.jpg");
+  position: relative;
+  min-height: 900px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #showcase .primary-overlay {
+    background-color: rgba(17, 2, 46, 0.7);
+    position: absolute;
+    min-height: 900px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#subid {
+  background: #252525; }
+
+#boxid {
+  background: #ffff; }
+
+#about #accordian .fa {
+  color: #49032c; }
+
+#about #accordian .ok {
+  color: #0E95C7; }
+
+#about #accordian .ok1 {
+  color: #5f0317; }
+
+#engineer1 {
+  background: #ffff; }
+
+#enginfo img {
+  margin-top: -60px; }
+
+#enginfo .card:hover {
+  background: #0E95C7;
+  color: aliceblue; }
+  #enginfo .card:hover .fa {
+    color: azure; }
+
+#enginfo .fa {
+  font-size: 30px;
+  padding: 30px; }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 3rem; } }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #showcase h1 {
+    font-size: 3rem; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #showcase h1 {
+    font-size: 4rem; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #showcase h1 {
+    font-size: 40px; } }
+
+@media (min-width: 1200px) {
+  #showcase h1 {
+    font-size: 80px; } }
